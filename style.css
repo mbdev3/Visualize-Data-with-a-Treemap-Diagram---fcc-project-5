@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  overflow: auto;
+  font-family: 'Nunito', sans-serif;
+  cursor: default;
+}
+pre {
+  font-size: 7em;
+}
+
+
+.tooldiv {
+  position: absolute;
+  background-color: rgba(99, 95, 93, 0.3);
+  background-color: hsla(0, 0%, 100%, 0.8);
+
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #495057;
+  opacity: 0;
+
+  padding: 10px;
+
+  border: 1px solid #635f5d;
+}
+
+.tooldiv span {
+  color: blue;
+}
+#title{
+   margin: 1rem 0;
+}
+#title h1 {
+  font-size: 1.75em;
+  text-align: center;
+  color: 635f5d;
+  margin: 0;
+  
+}
+
+#title p {
+  font-size: 1.2em;
+  text-align: center;
+  color: 635f5d;
+  margin: 0;
+}
+text {
+  cursor: default;
+}
+.mark text {
+  font-size: 0.5em;
+  cursor: default;
+}
+tspan {
+  cursor: default;
+  color: red;
+}
+
+
+#legend text {
+  font-size: 0.7em;
+}
+
+
+.copyright {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 5px;
+  bottom: -250px;
+}
+
+.copyright img {
+  width: 25px;
+  margin-left: 5px;
+  cursor:pointer;
+}
+
